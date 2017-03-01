@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		331666B21DBB77D00008989E /* UICheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 331666B11DBB77D00008989E /* UICheckbox.swift */; };
+		332B6D7D1DBAA95100B0BC21 /* CWStatusBarNotification.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332B6D7C1DBAA95100B0BC21 /* CWStatusBarNotification.swift.swift */; };
+		332B6D7F1DBAA96200B0BC21 /* CWStatusBarNotificationUtils.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 332B6D7E1DBAA96200B0BC21 /* CWStatusBarNotificationUtils.swift.swift */; };
+		333263151DB7F35A00F60F37 /* CentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333263141DB7F35A00F60F37 /* CentralManagerDelegate.swift */; };
+		333263171DB8005900F60F37 /* PeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333263161DB8005900F60F37 /* PeripheralDelegate.swift */; };
+		333263191DB8017600F60F37 /* FrameDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333263181DB8017600F60F37 /* FrameDecoder.swift */; };
+		3332631B1DB81FA500F60F37 /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3332631A1DB81FA500F60F37 /* BarViewController.swift */; };
+		3732E9E41D9A76B500CC3BF7 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3732E9E31D9A76B500CC3BF7 /* GraphViewController.swift */; };
+		375CB5181D9B11540001BABD /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 375CB5131D9B10FD0001BABD /* Charts.framework */; };
+		375CB5191D9B11540001BABD /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 375CB5131D9B10FD0001BABD /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9FCD367E55711217155861C2 /* Pods_Twinmax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8149709EDB663CBB5625BFE5 /* Pods_Twinmax.framework */; };
+		F4465F591D94683E00B0A0B7 /* HistoriqueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4465F581D94683E00B0A0B7 /* HistoriqueTableViewCell.swift */; };
+		F4465F5B1D9469C800B0A0B7 /* HistoriqueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4465F5A1D9469C800B0A0B7 /* HistoriqueTableViewController.swift */; };
+		F4465F5D1D946A1F00B0A0B7 /* Mesure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4465F5C1D946A1F00B0A0B7 /* Mesure.swift */; };
+		F483382F1D9E9DCB00DF91C5 /* CompteurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F483382E1D9E9DCB00DF91C5 /* CompteurViewController.swift */; };
+		F4DFBF5D1D93F38C0066CDBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFBF5C1D93F38C0066CDBB /* AppDelegate.swift */; };
+		F4DFBF641D93F38C0066CDBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFBF621D93F38C0066CDBB /* Main.storyboard */; };
+		F4DFBF661D93F38C0066CDBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4DFBF651D93F38C0066CDBB /* Assets.xcassets */; };
+		F4DFBF691D93F38C0066CDBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4DFBF671D93F38C0066CDBB /* LaunchScreen.storyboard */; };
+		F4DFBF741D93F38C0066CDBB /* TwinmaxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4DFBF731D93F38C0066CDBB /* TwinmaxTests.swift */; };
+		F4EF326B1DA192CF00F57AB3 /* Ressources in Resources */ = {isa = PBXBuildFile; fileRef = F4EF326A1DA192CF00F57AB3 /* Ressources */; };
+		F4EF326D1DA1936700F57AB3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4DFBF6A1D93F38C0066CDBB /* Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		375CB5121D9B10FD0001BABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F241D8110E600722320;
+			remoteInfo = Charts;
+		};
+		375CB5141D9B10FD0001BABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06B120D51D811E6200D14B02;
+			remoteInfo = ChartsRealm;
+		};
+		375CB5161D9B10FD0001BABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 06165F2E1D8110E600722320;
+			remoteInfo = ChartsTests;
+		};
+		375CB51A1D9B11540001BABD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 06165F231D8110E600722320;
+			remoteInfo = Charts;
+		};
+		F4DFBF701D93F38C0066CDBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4DFBF511D93F38B0066CDBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4DFBF581D93F38B0066CDBB;
+			remoteInfo = Twinmax;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		375CB51C1D9B11540001BABD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				375CB5191D9B11540001BABD /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		331666B11DBB77D00008989E /* UICheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICheckbox.swift; sourceTree = "<group>"; };
+		332B6D7C1DBAA95100B0BC21 /* CWStatusBarNotification.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CWStatusBarNotification.swift.swift; sourceTree = "<group>"; };
+		332B6D7E1DBAA96200B0BC21 /* CWStatusBarNotificationUtils.swift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CWStatusBarNotificationUtils.swift.swift; sourceTree = "<group>"; };
+		333263141DB7F35A00F60F37 /* CentralManagerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CentralManagerDelegate.swift; sourceTree = "<group>"; };
+		333263161DB8005900F60F37 /* PeripheralDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralDelegate.swift; sourceTree = "<group>"; };
+		333263181DB8017600F60F37 /* FrameDecoder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameDecoder.swift; sourceTree = "<group>"; };
+		3332631A1DB81FA500F60F37 /* BarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		3732E9E31D9A76B500CC3BF7 /* GraphViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
+		7C60FAFA6DB8573742908EE2 /* Pods-Twinmax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinmax.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twinmax/Pods-Twinmax.release.xcconfig"; sourceTree = "<group>"; };
+		8149709EDB663CBB5625BFE5 /* Pods_Twinmax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twinmax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D35BD6739616F4FF57249880 /* Pods-Twinmax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twinmax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Twinmax/Pods-Twinmax.debug.xcconfig"; sourceTree = "<group>"; };
+		F4465F581D94683E00B0A0B7 /* HistoriqueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoriqueTableViewCell.swift; sourceTree = "<group>"; };
+		F4465F5A1D9469C800B0A0B7 /* HistoriqueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoriqueTableViewController.swift; path = ../HistoriqueTableViewController.swift; sourceTree = "<group>"; };
+		F4465F5C1D946A1F00B0A0B7 /* Mesure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mesure.swift; sourceTree = "<group>"; };
+		F483382E1D9E9DCB00DF91C5 /* CompteurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompteurViewController.swift; sourceTree = "<group>"; };
+		F4DFBF591D93F38C0066CDBB /* Twinmax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twinmax.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DFBF5C1D93F38C0066CDBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4DFBF631D93F38C0066CDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4DFBF651D93F38C0066CDBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4DFBF681D93F38C0066CDBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4DFBF6A1D93F38C0066CDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4DFBF6F1D93F38C0066CDBB /* TwinmaxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinmaxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4DFBF731D93F38C0066CDBB /* TwinmaxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwinmaxTests.swift; sourceTree = "<group>"; };
+		F4DFBF751D93F38C0066CDBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EF326A1DA192CF00F57AB3 /* Ressources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Ressources; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4DFBF561D93F38B0066CDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375CB5181D9B11540001BABD /* Charts.framework in Frameworks */,
+				9FCD367E55711217155861C2 /* Pods_Twinmax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DFBF6C1D93F38C0066CDBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		332B6D7B1DBAA93600B0BC21 /* CWStatusBarNotification */ = {
+			isa = PBXGroup;
+			children = (
+				332B6D7C1DBAA95100B0BC21 /* CWStatusBarNotification.swift.swift */,
+				332B6D7E1DBAA96200B0BC21 /* CWStatusBarNotificationUtils.swift.swift */,
+			);
+			name = CWStatusBarNotification;
+			sourceTree = "<group>";
+		};
+		375CB50D1D9B10FD0001BABD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				375CB5131D9B10FD0001BABD /* Charts.framework */,
+				375CB5151D9B10FD0001BABD /* ChartsRealm.framework */,
+				375CB5171D9B10FD0001BABD /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC7E7CD7B1C86919F435F523 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D35BD6739616F4FF57249880 /* Pods-Twinmax.debug.xcconfig */,
+				7C60FAFA6DB8573742908EE2 /* Pods-Twinmax.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4DFBF501D93F38B0066CDBB = {
+			isa = PBXGroup;
+			children = (
+				332B6D7B1DBAA93600B0BC21 /* CWStatusBarNotification */,
+				375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */,
+				F4DFBF5B1D93F38C0066CDBB /* Twinmax */,
+				F4DFBF721D93F38C0066CDBB /* TwinmaxTests */,
+				F4DFBF5A1D93F38C0066CDBB /* Products */,
+				BC7E7CD7B1C86919F435F523 /* Pods */,
+				FBFFB1BF032C2BE3C363907D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4DFBF5A1D93F38C0066CDBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFBF591D93F38C0066CDBB /* Twinmax.app */,
+				F4DFBF6F1D93F38C0066CDBB /* TwinmaxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4DFBF5B1D93F38C0066CDBB /* Twinmax */ = {
+			isa = PBXGroup;
+			children = (
+				F4EF326A1DA192CF00F57AB3 /* Ressources */,
+				F4DFBF5C1D93F38C0066CDBB /* AppDelegate.swift */,
+				F4DFBF621D93F38C0066CDBB /* Main.storyboard */,
+				F4465F5A1D9469C800B0A0B7 /* HistoriqueTableViewController.swift */,
+				F4465F581D94683E00B0A0B7 /* HistoriqueTableViewCell.swift */,
+				F4465F5C1D946A1F00B0A0B7 /* Mesure.swift */,
+				F4DFBF651D93F38C0066CDBB /* Assets.xcassets */,
+				F4DFBF671D93F38C0066CDBB /* LaunchScreen.storyboard */,
+				F4DFBF6A1D93F38C0066CDBB /* Info.plist */,
+				3732E9E31D9A76B500CC3BF7 /* GraphViewController.swift */,
+				F483382E1D9E9DCB00DF91C5 /* CompteurViewController.swift */,
+				333263141DB7F35A00F60F37 /* CentralManagerDelegate.swift */,
+				333263161DB8005900F60F37 /* PeripheralDelegate.swift */,
+				333263181DB8017600F60F37 /* FrameDecoder.swift */,
+				3332631A1DB81FA500F60F37 /* BarViewController.swift */,
+				331666B11DBB77D00008989E /* UICheckbox.swift */,
+			);
+			path = Twinmax;
+			sourceTree = "<group>";
+		};
+		F4DFBF721D93F38C0066CDBB /* TwinmaxTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DFBF731D93F38C0066CDBB /* TwinmaxTests.swift */,
+				F4DFBF751D93F38C0066CDBB /* Info.plist */,
+			);
+			path = TwinmaxTests;
+			sourceTree = "<group>";
+		};
+		FBFFB1BF032C2BE3C363907D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8149709EDB663CBB5625BFE5 /* Pods_Twinmax.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4DFBF581D93F38B0066CDBB /* Twinmax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DFBF781D93F38C0066CDBB /* Build configuration list for PBXNativeTarget "Twinmax" */;
+			buildPhases = (
+				DEC2C9144E983DC0FA9F52A7 /* [CP] Check Pods Manifest.lock */,
+				F4DFBF551D93F38B0066CDBB /* Sources */,
+				F4DFBF561D93F38B0066CDBB /* Frameworks */,
+				F4DFBF571D93F38B0066CDBB /* Resources */,
+				375CB51C1D9B11540001BABD /* Embed Frameworks */,
+				1BE3CC3C72C025F1F15743ED /* [CP] Embed Pods Frameworks */,
+				34824118C2FACDD2F41BD2D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				375CB51B1D9B11540001BABD /* PBXTargetDependency */,
+			);
+			name = Twinmax;
+			productName = Twinmax;
+			productReference = F4DFBF591D93F38C0066CDBB /* Twinmax.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4DFBF6E1D93F38C0066CDBB /* TwinmaxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4DFBF7B1D93F38C0066CDBB /* Build configuration list for PBXNativeTarget "TwinmaxTests" */;
+			buildPhases = (
+				F4DFBF6B1D93F38C0066CDBB /* Sources */,
+				F4DFBF6C1D93F38C0066CDBB /* Frameworks */,
+				F4DFBF6D1D93F38C0066CDBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4DFBF711D93F38C0066CDBB /* PBXTargetDependency */,
+			);
+			name = TwinmaxTests;
+			productName = TwinmaxTests;
+			productReference = F4DFBF6F1D93F38C0066CDBB /* TwinmaxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4DFBF511D93F38B0066CDBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ISEN;
+				TargetAttributes = {
+					F4DFBF581D93F38B0066CDBB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = JP5RJNX69X;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					F4DFBF6E1D93F38C0066CDBB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 22XD3CDZE7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4DFBF581D93F38B0066CDBB;
+					};
+				};
+			};
+			buildConfigurationList = F4DFBF541D93F38B0066CDBB /* Build configuration list for PBXProject "Twinmax" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4DFBF501D93F38B0066CDBB;
+			productRefGroup = F4DFBF5A1D93F38C0066CDBB /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 375CB50D1D9B10FD0001BABD /* Products */;
+					ProjectRef = 375CB50C1D9B10FD0001BABD /* Charts.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F4DFBF581D93F38B0066CDBB /* Twinmax */,
+				F4DFBF6E1D93F38C0066CDBB /* TwinmaxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		375CB5131D9B10FD0001BABD /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = 375CB5121D9B10FD0001BABD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		375CB5151D9B10FD0001BABD /* ChartsRealm.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ChartsRealm.framework;
+			remoteRef = 375CB5141D9B10FD0001BABD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		375CB5171D9B10FD0001BABD /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = 375CB5161D9B10FD0001BABD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4DFBF571D93F38B0066CDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EF326B1DA192CF00F57AB3 /* Ressources in Resources */,
+				F4DFBF691D93F38C0066CDBB /* LaunchScreen.storyboard in Resources */,
+				F4DFBF661D93F38C0066CDBB /* Assets.xcassets in Resources */,
+				F4DFBF641D93F38C0066CDBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DFBF6D1D93F38C0066CDBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EF326D1DA1936700F57AB3 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1BE3CC3C72C025F1F15743ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinmax/Pods-Twinmax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34824118C2FACDD2F41BD2D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Twinmax/Pods-Twinmax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEC2C9144E983DC0FA9F52A7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4DFBF551D93F38B0066CDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4465F5D1D946A1F00B0A0B7 /* Mesure.swift in Sources */,
+				3732E9E41D9A76B500CC3BF7 /* GraphViewController.swift in Sources */,
+				333263191DB8017600F60F37 /* FrameDecoder.swift in Sources */,
+				333263171DB8005900F60F37 /* PeripheralDelegate.swift in Sources */,
+				F4465F591D94683E00B0A0B7 /* HistoriqueTableViewCell.swift in Sources */,
+				332B6D7F1DBAA96200B0BC21 /* CWStatusBarNotificationUtils.swift.swift in Sources */,
+				F4465F5B1D9469C800B0A0B7 /* HistoriqueTableViewController.swift in Sources */,
+				3332631B1DB81FA500F60F37 /* BarViewController.swift in Sources */,
+				F4DFBF5D1D93F38C0066CDBB /* AppDelegate.swift in Sources */,
+				F483382F1D9E9DCB00DF91C5 /* CompteurViewController.swift in Sources */,
+				333263151DB7F35A00F60F37 /* CentralManagerDelegate.swift in Sources */,
+				332B6D7D1DBAA95100B0BC21 /* CWStatusBarNotification.swift.swift in Sources */,
+				331666B21DBB77D00008989E /* UICheckbox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DFBF6B1D93F38C0066CDBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4DFBF741D93F38C0066CDBB /* TwinmaxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		375CB51B1D9B11540001BABD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Charts;
+			targetProxy = 375CB51A1D9B11540001BABD /* PBXContainerItemProxy */;
+		};
+		F4DFBF711D93F38C0066CDBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4DFBF581D93F38B0066CDBB /* Twinmax */;
+			targetProxy = F4DFBF701D93F38C0066CDBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4DFBF621D93F38C0066CDBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DFBF631D93F38C0066CDBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4DFBF671D93F38C0066CDBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4DFBF681D93F38C0066CDBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4DFBF761D93F38C0066CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4DFBF771D93F38C0066CDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4DFBF791D93F38C0066CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D35BD6739616F4FF57249880 /* Pods-Twinmax.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP5RJNX69X;
+				INFOPLIST_FILE = Twinmax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.selectronic.Twinmax463541;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4DFBF7A1D93F38C0066CDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C60FAFA6DB8573742908EE2 /* Pods-Twinmax.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JP5RJNX69X;
+				INFOPLIST_FILE = Twinmax/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = fr.selectronic.Twinmax463541;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4DFBF7C1D93F38C0066CDBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22XD3CDZE7;
+				INFOPLIST_FILE = TwinmaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karolewski.TwinmaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twinmax.app/Twinmax";
+			};
+			name = Debug;
+		};
+		F4DFBF7D1D93F38C0066CDBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22XD3CDZE7;
+				INFOPLIST_FILE = TwinmaxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karolewski.TwinmaxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Twinmax.app/Twinmax";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4DFBF541D93F38B0066CDBB /* Build configuration list for PBXProject "Twinmax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DFBF761D93F38C0066CDBB /* Debug */,
+				F4DFBF771D93F38C0066CDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DFBF781D93F38C0066CDBB /* Build configuration list for PBXNativeTarget "Twinmax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DFBF791D93F38C0066CDBB /* Debug */,
+				F4DFBF7A1D93F38C0066CDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4DFBF7B1D93F38C0066CDBB /* Build configuration list for PBXNativeTarget "TwinmaxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4DFBF7C1D93F38C0066CDBB /* Debug */,
+				F4DFBF7D1D93F38C0066CDBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4DFBF511D93F38B0066CDBB /* Project object */;
+}
