@@ -7,7 +7,3 @@ This application is designed for iOS environment (iPhone, iPad), it connects to 
 ## Language
 
 Swift 3.
-
-## Contributors
-
-Nicolas Creton - Baptiste De Magnienville - Baptiste Karolewski.
